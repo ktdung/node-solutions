@@ -13,19 +13,19 @@ const App = () => {
       <GlobalStyles />
       <div>
         <Switch>
-          <Route exact path="/">
+          <Route exact path='/'>
             <HomePage />
           </Route>
-          <Route exact path="/music">
+          <Route exact path='/music'>
             <Top50 />
           </Route>
-          <Route exact path="/music/:songRank">
+          <Route exact path='/music/:songRank'>
             <SongPage />
           </Route>
-          <Route exact path="/music/artist/:artistName">
+          <Route exact path='/music/artist/:artistName'>
             <ArtistPage />
           </Route>
-          <Route exact path="/music/artist/most-popular-artist">
+          <Route exact path='/most-popular-artist'>
             <PopularArtistPage />
           </Route>
         </Switch>

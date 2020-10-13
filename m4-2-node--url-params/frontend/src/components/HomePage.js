@@ -17,17 +17,15 @@ const HomePage = () => {
 
   return (
     <>
-      <Header pageTitle="Music Homepage" />
+      <Header pageTitle='Music Homepage' />
       <Content>
         <h2 style={{ marginTop: "24px" }}>Popular Links</h2>
         <Menu>
           <li>
-            <Link to="/music">All Songs</Link>
+            <Link to='/music'>All Songs</Link>
           </li>
           <li>
-            <Link to="/music/artist/most-popular-artist">
-              Songs by most popular artist
-            </Link>
+            <Link to='/most-popular-artist'>Songs by most popular artist</Link>
           </li>
         </Menu>
         <h2>Artists on this list</h2>
